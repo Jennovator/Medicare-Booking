@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { heroImg01, heroImg02, heroImg03 } from '../assets';
 import { BsArrowRight } from 'react-icons/bs';
 import { finderLinks } from '../constants';
-import { About } from '../components/About';
+import { About } from '../components';
 
 const GridItem = ({ icon, title, description, path }) => (
   <div className='py-[30px] px-5'>
@@ -86,6 +86,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* --------- HERO SECTION END --------- */}
 
       <section>
         <div className="container">
@@ -178,6 +179,16 @@ const Home = () => {
       </section>
 
       <About />
+
+      {/* --------- SERVICES SECTION --------- */}
+      <section>
+        <div className='container'>
+          <div className=''>
+            HELLO
+          </div>
+        </div>
+      </section>
+      {/* --------- SERVICES SECTION END --------- */}
     </>
   )
 }
