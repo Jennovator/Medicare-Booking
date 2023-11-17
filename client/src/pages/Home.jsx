@@ -4,6 +4,7 @@ import { heroImg01, heroImg02, heroImg03 } from '../assets';
 import { BsArrowRight } from 'react-icons/bs';
 import { finderLinks } from '../constants';
 import { About } from '../components';
+import ServiceList from '../components/Services/ServiceList';
 
 const GridItem = ({ icon, title, description, path }) => (
   <div className='py-[30px] px-5'>
@@ -191,6 +192,8 @@ const Home = () => {
               World-class care for everyone. Our health system offers unmatched, expert health care.
             </p>
           </div>
+
+          <ServiceList />
         </div>
       </section>
       {/* --------- SERVICES SECTION END --------- */}
