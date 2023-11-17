@@ -79,6 +79,18 @@ export const services = [
     },
 ];
 
+export const features = [
+  {
+    description: "Schedule the appointment directly."
+  },
+  {
+    description: "Search for your physician here and contact their office."
+  },
+  {
+    description: "View our physicians who are accepting new patients, use the online scheduling tool to select an appointment time."
+  }
+];
+
 export const doctors = [
     {
       id: "01",

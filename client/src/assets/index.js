@@ -11,5 +11,25 @@ import aboutCardImg from '../assets/images/about-card.png';
 import doctorImg01 from "../assets/images/doctor-img01.png";
 import doctorImg02 from "../assets/images/doctor-img02.png";
 import doctorImg03 from "../assets/images/doctor-img03.png";
+import featureImg from "../assets/images/feature-img.png";
+import videoIcon from "../assets/images/video-icon.png";
+import avatarIcon from "../assets/images/avatar-icon.png";
 
-export { heroImg01, heroImg02, heroImg03, logo, userImg, icon01, icon02, icon03, aboutImg, aboutCardImg, doctorImg01, doctorImg02, doctorImg03 };
+export { 
+    heroImg01, 
+    heroImg02, 
+    heroImg03, 
+    logo, 
+    userImg, 
+    icon01, 
+    icon02, 
+    icon03, 
+    aboutImg, 
+    aboutCardImg, 
+    doctorImg01, 
+    doctorImg02, 
+    doctorImg03,
+    featureImg,
+    videoIcon,
+    avatarIcon
+};
