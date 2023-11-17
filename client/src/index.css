@@ -14,7 +14,7 @@
     }
 
     .btn{
-        @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
+        @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px] hover:bg-primaryColor/80 focus:ring-4 drop-shadow-xl transform active:scale-y-75 transition-transform;
     }
 
     .heading{
