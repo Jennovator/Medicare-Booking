@@ -5,7 +5,7 @@ import { BsArrowRight } from 'react-icons/bs';
 const ServiceCard = ({ item, index }) => {
   const { name, desc, bgColor, textColor } = item;
   return (
-    <div className='py-[30px] px-3 lg:px-5'>
+    <div className='py-[30px] px-3 lg:px-5 bg-amber-50/70 rounded-2xl drop-shadow-xl'>
       <h2 className='text-[26px] leading-9 text-headingColor font-[700]'>{name}</h2>
       <p className='text-[16px] leading-7 text-textColor font-[400] mt-4'>
         {desc}
