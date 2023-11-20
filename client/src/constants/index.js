@@ -205,3 +205,52 @@ export const faqs = [
         url: "https://github.com/Jennovator"
     }
   ];
+
+  export const quickLinks01 = [
+    {
+        path:'/home',
+        display: 'Home'
+    },
+    {
+        path:'/about',
+        display: 'About Us'
+    },
+    {
+        path:'/services',
+        display: 'Services'
+    },
+    {
+        path:'/',
+        display: 'Blog'
+    },
+];
+
+export const quickLinks02 = [
+  {
+      path:'/find-a-doctor',
+      display: 'Find a Doctor'
+  },
+  {
+      path:'/',
+      display: 'Request an Appointment'
+  },
+  {
+      path:'/',
+      display: 'Find a Location'
+  },
+  {
+      path:'/',
+      display: 'Get an Opinion'
+  },
+];
+
+export const quickLinks03 = [
+  {
+      path:'/',
+      display: 'Donate'
+  },
+  {
+      path:'/contact',
+      display: 'Contact Us'
+  }
+];
