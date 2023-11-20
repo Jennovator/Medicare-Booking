@@ -1,6 +1,6 @@
 import { icon01, icon02, icon03, doctorImg01, doctorImg02, doctorImg03, patientAvatar } from "../assets";
-import { RiLinkedIn } from 'react-icons/ri';
-import { AiFillGitHub, AiOutlineInstagram } from 'react-icons/ai';
+import { RiLinkedinFill } from 'react-icons/ri';
+import { AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
 
 export const navLinks = [
     {
@@ -196,12 +196,12 @@ export const faqs = [
     },
     {
       name: "Linkedin",
-      icon: RiLinkedIn,
+      icon: RiLinkedinFill,
       url: "https://www.linkedin.com/in/jenyll-mabborang-297776289/"
     },
     {
         name: "Github",
-        icon: AiFillGitHub,
+        icon: AiFillGithub,
         url: "https://github.com/Jennovator"
     }
   ];
