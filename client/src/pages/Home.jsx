@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { heroImg01, heroImg02, heroImg03, featureImg, videoIcon, avatarIcon } from '../assets';
+import { heroImg01, heroImg02, heroImg03, featureImg, videoIcon, avatarIcon, faqImg } from '../assets';
 import { BsArrowRight } from 'react-icons/bs';
 import { finderLinks, features } from '../constants';
-import { About } from '../components';
-import ServiceList from '../components/Services/ServiceList';
-import DoctorList from '../components/Doctors/DoctorList';
+import { About, ServiceList, DoctorList, FaqList } from '../components';
 
 const GridItem = ({ icon, title, description, path }) => (
   <div className='py-[30px] px-5'>
@@ -277,7 +275,22 @@ const Home = () => {
         </div>
       </section>
       {/* --------- DOCTORS SECTION END --------- */}
-
+      
+      {/* --------- FAQ SECTION --------- */}
+      <section>
+        <div className="container">
+          <div className='flex justify-between gap-[50px] lg:gap-0'>
+            <div className='w-1/2 hidden md:block'>
+              <img src={faqImg} alt=''/>
+            </div>
+            <div className='w-full  md:w-1/2'>
+              <h2 className='heading'> Most questions by our beloved patients </h2>
+              <FaqList />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* --------- FAQ SECTION END --------- */}
 
     </>
   )
