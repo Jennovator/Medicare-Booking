@@ -1,4 +1,6 @@
-import { icon01, icon02, icon03, doctorImg01, doctorImg02, doctorImg03, patientAvatar } from "../assets"
+import { icon01, icon02, icon03, doctorImg01, doctorImg02, doctorImg03, patientAvatar } from "../assets";
+import { RiLinkedIn } from 'react-icons/ri';
+import { AiFillGitHub, AiOutlineInstagram } from 'react-icons/ai';
 
 export const navLinks = [
     {
@@ -185,4 +187,21 @@ export const faqs = [
       testimonial: 'I have taken medical services from them. They treat so well and they are providing the best medical services.'
     }
   ];
-  
+ 
+  export const socialLinks = [
+    {
+      name: "Instagram",
+      icon: AiOutlineInstagram,
+      url: "https://www.instagram.com/jnyll.mab/"
+    },
+    {
+      name: "Linkedin",
+      icon: RiLinkedIn,
+      url: "https://www.linkedin.com/in/jenyll-mabborang-297776289/"
+    },
+    {
+        name: "Github",
+        icon: AiFillGitHub,
+        url: "https://github.com/Jennovator"
+    }
+  ];
