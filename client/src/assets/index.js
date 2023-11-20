@@ -1,19 +1,22 @@
-import heroImg01 from '../assets/images/hero-img01.png';
-import heroImg02 from '../assets/images/hero-img02.png';
-import heroImg03 from '../assets/images/hero-img03.png';
-import logo from '../assets/images/logo.png';
-import userImg from '../assets/images/avatar-icon.png';
-import icon01 from '../assets/images/icon01.png';
-import icon02 from '../assets/images/icon02.png';
-import icon03 from '../assets/images/icon03.png';
-import aboutImg from '../assets/images/about.png';
-import aboutCardImg from '../assets/images/about-card.png';
-import doctorImg01 from "../assets/images/doctor-img01.png";
-import doctorImg02 from "../assets/images/doctor-img02.png";
-import doctorImg03 from "../assets/images/doctor-img03.png";
-import featureImg from "../assets/images/feature-img.png";
-import videoIcon from "../assets/images/video-icon.png";
-import avatarIcon from "../assets/images/avatar-icon.png";
+import heroImg01 from './images/hero-img01.png';
+import heroImg02 from './images/hero-img02.png';
+import heroImg03 from './images/hero-img03.png';
+import logo from './images/logo.png';
+import userImg from './images/avatar-icon.png';
+import icon01 from './images/icon01.png';
+import icon02 from './images/icon02.png';
+import icon03 from './images/icon03.png';
+import aboutImg from './images/about.png';
+import aboutCardImg from './images/about-card.png';
+import doctorImg01 from "./images/doctor-img01.png";
+import doctorImg02 from "./images/doctor-img02.png";
+import doctorImg03 from "./images/doctor-img03.png";
+import featureImg from "./images/feature-img.png";
+import videoIcon from "./images/video-icon.png";
+import avatarIcon from "./images/avatar-icon.png";
+import starIcon from "./images/Star.png";
+import faqImg from "./images/faq-img.png";
+import patientAvatar from "./images/patient-avatar.png";
 
 export { 
     heroImg01, 
@@ -31,5 +34,8 @@ export {
     doctorImg03,
     featureImg,
     videoIcon,
-    avatarIcon
+    avatarIcon,
+    starIcon,
+    faqImg,
+    patientAvatar
 };
