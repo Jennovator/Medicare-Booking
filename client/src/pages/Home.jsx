@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { heroImg01, heroImg02, heroImg03, featureImg, videoIcon, avatarIcon, faqImg } from '../assets';
 import { BsArrowRight } from 'react-icons/bs';
 import { finderLinks, features } from '../constants';
-import { About, ServiceList, DoctorList, FaqList } from '../components';
+import { About, ServiceList, DoctorList, FaqList, Testimonial } from '../components';
 
 const GridItem = ({ icon, title, description, path }) => (
   <div className='py-[30px] px-5'>
@@ -275,13 +275,13 @@ const Home = () => {
         </div>
       </section>
       {/* --------- DOCTORS SECTION END --------- */}
-      
+
       {/* --------- FAQ SECTION --------- */}
       <section>
         <div className="container">
           <div className='flex justify-between gap-[50px] lg:gap-0'>
             <div className='w-1/2 hidden md:block'>
-              <img src={faqImg} alt=''/>
+              <img src={faqImg} alt='' />
             </div>
             <div className='w-full  md:w-1/2'>
               <h2 className='heading'> Most questions by our beloved patients </h2>
@@ -291,6 +291,23 @@ const Home = () => {
         </div>
       </section>
       {/* --------- FAQ SECTION END --------- */}
+
+      {/* --------- TESTIMONIAL SECTION --------- */}
+      <section>
+        <div className="container">
+          <div className='xl:w-[470px] mx-auto'>
+            <h2 className='heading text-center'>
+              What our patients say
+            </h2>
+            <p className='text__para text-center'>
+              World-class care for everyone. Our health system offers unmatched, expert health care.
+            </p>
+          </div>
+
+          <Testimonial />
+        </div>
+      </section>
+      {/* --------- TESTIMONIAL SECTION END --------- */}
 
     </>
   )
