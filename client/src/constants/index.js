@@ -1,4 +1,4 @@
-import { icon01, icon02, icon03, doctorImg01, doctorImg02, doctorImg03 } from "../assets"
+import { icon01, icon02, icon03, doctorImg01, doctorImg02, doctorImg03, patientAvatar } from "../assets"
 
 export const navLinks = [
     {
@@ -151,5 +151,38 @@ export const faqs = [
       content:
         "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
     },
+  ];
+
+  export const testimonials = [
+    {
+      image: patientAvatar,
+      name: 'Romel Cagurangan',
+      star: 5,
+      testimonial: 'I have taken medical services from them. They treat so well and they are providing the best medical services.'
+    },
+    {
+      image: patientAvatar,
+      name: 'John Brain Dugay',
+      star: 4.5,
+      testimonial: 'I have taken medical services from them. They treat so well and they are providing the best medical services.'
+    },
+    {
+      image: patientAvatar,
+      name: 'Neil Bosi',
+      star: 5,
+      testimonial: 'I have taken medical services from them. They treat so well and they are providing the best medical services.'
+    },
+    {
+      image: patientAvatar,
+      name: 'Edmar Trinidad',
+      star: 5,
+      testimonial: 'I have taken medical services from them. They treat so well and they are providing the best medical services.'
+    },
+    {
+      image: patientAvatar,
+      name: 'Jackson Bosi',
+      star: 4.5,
+      testimonial: 'I have taken medical services from them. They treat so well and they are providing the best medical services.'
+    }
   ];
   
