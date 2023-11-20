@@ -5,6 +5,7 @@ import { BsArrowRight } from 'react-icons/bs';
 import { finderLinks, features } from '../constants';
 import { About } from '../components';
 import ServiceList from '../components/Services/ServiceList';
+import DoctorList from '../components/Doctors/DoctorList';
 
 const GridItem = ({ icon, title, description, path }) => (
   <div className='py-[30px] px-5'>
@@ -225,11 +226,11 @@ const Home = () => {
 
             {/* --------- feature image --------- */}
             <div className='relative z-10 xl:w-[770px] flex justify-end mt-[50px] lg:mt-0'>
-              <img src={featureImg} alt='' className='w-3/4'/>
+              <img src={featureImg} alt='' className='w-3/4' />
               <div className='w-[150px] lg:w-[240px] bg-white absolute bottom-[50px] left-0 md:bottom-[100px] md:left-5 z-20 p-2 pb-3 lg:pt-4 lg:px-4 lg:pb-[26px] rounded-[10px] drop-shadow-xl'>
                 <div className='flex items-center justify-between'>
                   <div className='flex items-center gap-[6px] lg:gap-3'>
-                    <p className='text-[10px] leading-[10px] lg:text-[14px] lg:leading-5 text-headingColor font-[600]'> 
+                    <p className='text-[10px] leading-[10px] lg:text-[14px] lg:leading-5 text-headingColor font-[600]'>
                       Tue, 24
                     </p>
                     <p className='text-[10px] leading-[10px] lg:text-[14px] lg:leading-5 text-textColor font-[400]'>
@@ -259,6 +260,24 @@ const Home = () => {
         </div>
       </section>
       {/* --------- FEATURE SECTION END --------- */}
+
+      {/* --------- DOCTORS SECTION --------- */}
+      <section>
+        <div className='container'>
+          <div className='xl:w-[470px] mx-auto'>
+            <h2 className='heading text-center'>
+              Our Great Doctors
+            </h2>
+            <p className='text__para text-center'>
+              World-class care for everyone. Our health system offers unmatched, expert health care.
+            </p>
+          </div>
+
+          <DoctorList />
+        </div>
+      </section>
+      {/* --------- DOCTORS SECTION END --------- */}
+
 
     </>
   )
