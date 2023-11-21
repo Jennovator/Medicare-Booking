@@ -22,11 +22,10 @@ const DoctorDetails = () => {
     avgRating,
     totalRating,
     photo,
-    totalPatients,
-    hospital,
     about,
     bio,
     education,
+    experience
   } = doctor;
 
   const [tab, setTab] = useState('about');
@@ -80,7 +79,7 @@ const DoctorDetails = () => {
 
             <div className='mt-[50px]'>
               {
-                tab === 'about' && <DoctorAbout />
+                tab === 'about' && <DoctorAbout name={name} about={about} education={education} experience={experience} />
               }
               {
                 tab === 'feedback' && <Feedback />
