@@ -103,6 +103,34 @@ export const doctors = [
       photo: doctorImg01,
       totalPatients: 1500,
       hospital: "Mount Adora Hospital, Sylhet.",
+      bio: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      about: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis eius assumenda corrupti at fugiat ipsum odio laudantium quisquam veritatis cosectetur velit illo ullam animi necessatatibus vero voluptatum fuga consequuntur, aspernatur perspiciatis adipisci. Necessitatibus et non sapiente sit distinctio, repellat illo totam perspiciatis, inventore ex assumenda odit natus cumque saepe nostrum.",
+      education: [
+        {
+          year: "12-04-2010",
+          degree: "PhD in Surgeon",
+          school: "Cagayan Valley Hospital, Cagayan"
+        },
+        {
+          year: "05-15-2005",
+          degree: "Bachelor of Science in Biology",
+          school: "Cagayan Valley Hospital, Cagayan"
+        }
+      ],
+      experience: [
+        {
+          startDate: "07-04-2010",
+          endDate: "08-13-2014",
+          position: "Sr. Surgeon",
+          company: "Saint Paul Hospital"
+        },
+        {
+          startDate: "07-03-2005",
+          endDate: "06-15-2010",
+          position: "Surgeon",
+          company: "New People General Hospital"
+        }
+      ]
     },
     {
       id: "02",
@@ -113,6 +141,45 @@ export const doctors = [
       photo: doctorImg02,
       totalPatients: 1500,
       hospital: "Mount Adora Hospital, Sylhet.",
+      bio: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      about: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis eius assumenda corrupti at fugiat ipsum odio laudantium quisquam veritatis cosectetur velit illo ullam animi necessatatibus vero voluptatum fuga consequuntur, aspernatur perspiciatis adipisci. Necessitatibus et non sapiente sit distinctio, repellat illo totam perspiciatis, inventore ex assumenda odit natus cumque saepe nostrum.",
+      education: [
+        {
+          year: "12-04-2009",
+          degree: "Doctor of Medicine (MD)",
+          school: "Cagayan Valley Hospital, Cagayan"
+        },
+        {
+          year: "05-15-2003",
+          degree: "Master's Degree in Neurology",
+          school: "Cagayan Valley Hospital, Cagayan"
+        },
+        {
+          year: "05-15-1998",
+          degree: "Bachelor of Science in Biology",
+          school: "Cagayan Valley Hospital, Cagayan"
+        }
+      ],
+      experience: [
+        {
+          startDate: "07-04-2012",
+          endDate: "08-13-2014",
+          position: "Sr. Neurologist",
+          company: "Saint Paul Hospital"
+        },
+        {
+          startDate: "02-03-2005",
+          endDate: "06-15-2010",
+          position: "Neurologist",
+          company: "New People General Hospital"
+        },
+        {
+          startDate: "01-03-1999",
+          endDate: "10-15-2004",
+          position: "Assistant Neurologist",
+          company: "Cagayan Valley Hospital"
+        }
+      ]
     },
     {
       id: "03",
@@ -123,6 +190,39 @@ export const doctors = [
       photo: doctorImg03,
       totalPatients: 1500,
       hospital: "Mount Adora Hospital, Sylhet.",
+      bio: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      about: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Omnis eius assumenda corrupti at fugiat ipsum odio laudantium quisquam veritatis cosectetur velit illo ullam animi necessatatibus vero voluptatum fuga consequuntur, aspernatur perspiciatis adipisci. Necessitatibus et non sapiente sit distinctio, repellat illo totam perspiciatis, inventore ex assumenda odit natus cumque saepe nostrum.",
+      education: [
+        {
+          year: "12-04-2016",
+          degree: "PhD in Experimental Aesthetic Medicine",
+          school: "Cagayan Valley Hospital, Cagayan"
+        },
+        {
+          year: "05-15-2010",
+          degree: "Master of Science in Clinical Dermatology",
+          school: "Cagayan Valley Hospital, Cagayan"
+        },
+        {
+          year: "05-15-2005",
+          degree: "Bachelor of Science in Biology",
+          school: "Cagayan Valley Hospital, Cagayan"
+        }
+      ],
+      experience: [
+        {
+          startDate: "07-04-2010",
+          endDate: "08-13-2016",
+          position: "Sr. Dermatologist",
+          company: "Cagayan Valley Hospital"
+        },
+        {
+          startDate: "07-03-2005",
+          endDate: "06-15-2010",
+          position: "Dermatologist",
+          company: "New People General Hospital"
+        }
+      ]
     },
   ];
  
