@@ -25,7 +25,8 @@ const DoctorDetails = () => {
     about,
     bio,
     education,
-    experience
+    experience,
+    reviews
   } = doctor;
 
   const [tab, setTab] = useState('about');
@@ -82,7 +83,7 @@ const DoctorDetails = () => {
                 tab === 'about' && <DoctorAbout name={name} about={about} education={education} experience={experience} />
               }
               {
-                tab === 'feedback' && <Feedback />
+                tab === 'feedback' && <Feedback reviews={reviews} totalRating={totalRating}/>
               }
             </div>
           </div>
