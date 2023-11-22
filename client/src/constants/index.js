@@ -1,4 +1,4 @@
-import { icon01, icon02, icon03, doctorImg01, doctorImg02, doctorImg03, patientAvatar } from "../assets";
+import { icon01, icon02, icon03, doctorImg01, doctorImg02, doctorImg03, patientAvatar, avatarIcon } from "../assets";
 import { RiLinkedinFill } from 'react-icons/ri';
 import { AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
 
@@ -130,6 +130,29 @@ export const doctors = [
           position: "Surgeon",
           company: "New People General Hospital"
         }
+      ],
+      reviews: [
+        {
+          avatar: avatarIcon,
+          name: "Fred Cagurangan",
+          dateReviewed: "11-20-2018",
+          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          star: 5
+        },
+        {
+          avatar: avatarIcon,
+          name: "Ronron Cuntapay",
+          dateReviewed: "11-20-2020",
+          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          star: 5
+        },
+        {
+          avatar: avatarIcon,
+          name: "Cedric Trinidad",
+          dateReviewed: "11-20-2023",
+          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          star: 4.5
+        },
       ]
     },
     {
@@ -179,6 +202,29 @@ export const doctors = [
           position: "Assistant Neurologist",
           company: "Cagayan Valley Hospital"
         }
+      ],
+      reviews: [
+        {
+          avatar: avatarIcon,
+          name: "Nilo Mabborang",
+          dateReviewed: "11-20-2018",
+          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          star: 5
+        },
+        {
+          avatar: avatarIcon,
+          name: "Jackson Bosi",
+          dateReviewed: "11-20-2020",
+          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          star: 4.5
+        },
+        {
+          avatar: avatarIcon,
+          name: "Bryan Vizon",
+          dateReviewed: "11-20-2023",
+          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          star: 5
+        },
       ]
     },
     {
@@ -222,6 +268,29 @@ export const doctors = [
           position: "Dermatologist",
           company: "New People General Hospital"
         }
+      ],
+      reviews: [
+        {
+          avatar: avatarIcon,
+          name: "Teody Mabborang",
+          dateReviewed: "11-20-2018",
+          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          star: 4.5
+        },
+        {
+          avatar: avatarIcon,
+          name: "Paul Jasper Bosi",
+          dateReviewed: "11-20-2020",
+          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          star: 5
+        },
+        {
+          avatar: avatarIcon,
+          name: "Caster Carino",
+          dateReviewed: "11-20-2023",
+          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+          star: 5
+        },
       ]
     },
   ];
