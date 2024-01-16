@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { formatDate } from '../../utils/formatDate';
 import { AiFillStar } from 'react-icons/ai';
+import FeedbackForm from './FeedbackForm';
 
-const Feedback = ({ reviews, totalRating}) => {
+const Feedback = ({ reviews, totalRating }) => {
+
+  const [showFeedbackForm, setShowFeedbackForm] = useState(false);
+
   return (
     <div>
       <div>
@@ -33,7 +37,7 @@ const Feedback = ({ reviews, totalRating}) => {
                   </p>
                 </div>
 
-                <div className='flex gap-1 items-start'>
+                <div className='flex gap-1 ml-auto'>
                   {Array.from({ length: Math.floor(review.star) }, (_, starIndex) => (
                     <AiFillStar
                       color='#0067FF'
@@ -46,12 +50,27 @@ const Feedback = ({ reviews, totalRating}) => {
                       style={{ clipPath: 'polygon(0 0, 50% 0%, 50% 100%, 0% 100%)' }}
                     />
                   )}
-                </div>  
+                </div>
               </div>
             ))
           }
         </div>
       </div>
+
+      {
+        !showFeedbackForm &&
+        <div className='text-center'>
+          <button
+            className='btn'
+            onClick={() => setShowFeedbackForm(true)}
+          >
+            Give feedback
+          </button>
+        </div>
+      }
+      {
+        showFeedbackForm && <FeedbackForm />
+      }
     </div>
   )
 }
