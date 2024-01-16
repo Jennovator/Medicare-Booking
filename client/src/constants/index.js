@@ -153,6 +153,23 @@ export const doctors = [
           description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
           star: 4.5
         },
+      ],
+      availableSlots: [
+        {
+          availableDay: "Sunday",
+          availableStartTime: "4:00 PM",
+          availableEndTime: "9:00 PM"
+        },
+        {
+          availableDay: "Tuesday",
+          availableStartTime: "4:00 PM",
+          availableEndTime: "9:00 PM"
+        },
+        {
+          availableDay: "Thursday",
+          availableStartTime: "4:00 PM",
+          availableEndTime: "9:00 PM"
+        },
       ]
     },
     {
@@ -225,6 +242,23 @@ export const doctors = [
           description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
           star: 5
         },
+      ],
+      availableSlots: [
+        {
+          availableDay: "Sunday",
+          availableStartTime: "4:00 PM",
+          availableEndTime: "9:00 PM"
+        },
+        {
+          availableDay: "Tuesday",
+          availableStartTime: "4:00 PM",
+          availableEndTime: "9:00 PM"
+        },
+        {
+          availableDay: "Thursday",
+          availableStartTime: "4:00 PM",
+          availableEndTime: "9:00 PM"
+        },
       ]
     },
     {
@@ -290,6 +324,23 @@ export const doctors = [
           dateReviewed: "11-20-2023",
           description: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
           star: 5
+        },
+      ],
+      availableSlots: [
+        {
+          availableDay: "Sunday",
+          availableStartTime: "4:00 PM",
+          availableEndTime: "9:00 PM"
+        },
+        {
+          availableDay: "Tuesday",
+          availableStartTime: "4:00 PM",
+          availableEndTime: "9:00 PM"
+        },
+        {
+          availableDay: "Thursday",
+          availableStartTime: "4:00 PM",
+          availableEndTime: "9:00 PM"
         },
       ]
     },
