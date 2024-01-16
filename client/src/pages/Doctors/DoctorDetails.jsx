@@ -4,6 +4,7 @@ import { doctors } from '../../constants';
 import { starIcon } from '../../assets';
 import DoctorAbout from './DoctorAbout';
 import Feedback from './Feedback';
+import SidePanel from './SidePanel';
 
 const DoctorDetails = () => {
   const { id } = useParams(); // Get the ID from the URL params
@@ -26,7 +27,8 @@ const DoctorDetails = () => {
     bio,
     education,
     experience,
-    reviews
+    reviews,
+    availableSlots
   } = doctor;
 
   const [tab, setTab] = useState('about');
@@ -86,6 +88,10 @@ const DoctorDetails = () => {
                 tab === 'feedback' && <Feedback reviews={reviews} totalRating={totalRating}/>
               }
             </div>
+          </div>
+
+          <div>
+            <SidePanel availableSlots={availableSlots} />
           </div>
         </div>
       </div>
