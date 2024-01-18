@@ -7,6 +7,13 @@ const Footer = () => {
 
   const year = new Date().getFullYear();
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <footer className='pb-16 pt-10'>
       <div className="container">
@@ -25,6 +32,7 @@ const Footer = () => {
                     <Link
                       key={index}
                       to={link.path}
+                      onClick={scrollToTop} // Add onClick to scroll to top
                       className='w-9 h-9 border-solid border-[#181A1E] rounded-full flex items-center justify-center group hover:bg-primaryColor hover:border-none'
                     >
                       <Icon className='w-6 h-6'/>
@@ -45,6 +53,7 @@ const Footer = () => {
                     <li key={index}>
                       <Link
                         to={item.path}
+                        onClick={scrollToTop} // Add onClick to scroll to top
                         className='text-[16px] leading-7 font-[400] text-textColor hover:text-primaryColor'
                       >
                         {item.display}
@@ -65,6 +74,7 @@ const Footer = () => {
                     <li key={index}>
                       <Link
                         to={item.path}
+                        onClick={scrollToTop} // Add onClick to scroll to top
                         className='text-[16px] leading-7 font-[400] text-textColor hover:text-primaryColor'
                       >
                         {item.display}
@@ -85,6 +95,7 @@ const Footer = () => {
                     <li key={index}>
                       <Link
                         to={item.path}
+                        onClick={scrollToTop} // Add onClick to scroll to top
                         className='text-[16px] leading-7 font-[400] text-textColor hover:text-primaryColor'
                       >
                         {item.display}

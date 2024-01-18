@@ -447,7 +447,7 @@ export const faqs = [
 
 export const quickLinks02 = [
   {
-      path:'/find-a-doctor',
+      path:'/doctors',
       display: 'Find a Doctor'
   },
   {
