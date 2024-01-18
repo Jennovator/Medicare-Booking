@@ -59,7 +59,7 @@ const Signup = () => {
                   onChange={handleInputChange}
                   className='w-full pr-4 py-3 border-b border-solid border-[#0066ff61] 
               focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 
-              text-headingColor placeholder:text-textColor cursor-pointer'
+              text-headingColor placeholder:text-textColor placeholder:opacity-80 cursor-pointer'
                   required
                 />
               </div>
@@ -73,7 +73,7 @@ const Signup = () => {
                   onChange={handleInputChange}
                   className='w-full py-3 border-b border-solid border-[#0066ff61] 
               focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 
-              text-headingColor placeholder:text-textColor cursor-pointer'
+              text-headingColor placeholder:text-textColor placeholder:opacity-80 cursor-pointer'
                   required
                 />
               </div>
